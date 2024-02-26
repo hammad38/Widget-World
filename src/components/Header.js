@@ -31,9 +31,9 @@ const Header = () => {
             variant="contained" 
             sx={{ 
               ml: 2, 
-              backgroundColor: 'yellow', 
+              backgroundColor: 'yellow', color: "black",
               '&:hover': { 
-                backgroundColor: 'darkyellow' // Make sure to replace 'darkyellow' with an actual color value
+                backgroundColor: 'black', color: "white", border: "white" // Make sure to replace 'darkyellow' with an actual color value
               } 
             }}
           >
