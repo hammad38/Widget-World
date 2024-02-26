@@ -1,4 +1,3 @@
-import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -13,7 +12,7 @@ const Header = () => {
         <Box sx={{ flexGrow: 1 }} />
         {/* Logo and Title, hidden if not needed */}
         <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            FlutterBricks
+            WidgetWorld
           </Typography>
 
         {/* Centered Menu Items */}
@@ -33,7 +32,7 @@ const Header = () => {
               ml: 2, 
               backgroundColor: 'yellow', color: "black",
               '&:hover': { 
-                backgroundColor: 'black', color: "white", border: "white" // Make sure to replace 'darkyellow' with an actual color value
+                backgroundColor: 'black', color: "white", border: "white",  border: '1px solid white' // Make sure to replace 'darkyellow' with an actual color value
               } 
             }}
           >
